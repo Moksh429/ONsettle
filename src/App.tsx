@@ -1,6 +1,9 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+
+import { BetaSignup } from './components/BetaSignup';
+
 import { ProblemSolution } from './components/ProblemSolution';
 import { HowItWorks } from './components/HowItWorks';
 import { TransferSimulator } from './components/TransferSimulator';
@@ -35,6 +38,10 @@ export const App: React.FC = () => {
 
         {/* Tech Stack, Anchor Quickstart & Roadmap */}
         <TechStackRoadmap />
+
+        {/* Beta Signup */}
+        <BetaSignup />
+        
       </main>
 
       {/* Footer with Disclaimer & Tagline */}
